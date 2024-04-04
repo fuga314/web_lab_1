@@ -1,0 +1,18 @@
+.footer .footer__top {
+  margin-bottom: 74px;
+}
+.footer .footer__links {
+  text-align: center;
+}
+.footer .footer__links .footer__links-item-link {
+  font-size: 24px;
+  color: #0C2836;
+}
+.footer .footer__info {
+  text-align: end;
+}
+.footer .footer__copyright {
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 28px;
+}/*# sourceMappingURL=footer.css.map */

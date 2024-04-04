@@ -1,0 +1,42 @@
+.projects{
+    font-family: Montserrat;
+    margin-bottom: 100px;
+    width: 100%;
+    .projects__card{
+        img{
+            width: 378px;
+            height: 238px;
+            border-radius: 15px;
+            margin-bottom: 12px;
+            
+        }
+    }
+
+    row{
+        row-gap: 44px;
+    }
+}
+
+.projects h2{
+    
+    font-style: Extrabold;
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.projects .projects__card a{
+    text-decoration: none;
+    color: #FFA239;
+    /* font-style: SemiBold; */
+    font-size: 18px;
+    font-weight: 600;
+    /* line-height: 150%; */
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.projects .projects__card a:hover{
+    text-decoration: underline;
+}

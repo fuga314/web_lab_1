@@ -1,0 +1,42 @@
+.promo{
+    margin-bottom: 79px;
+
+    h1 span{
+        color: #FFA239;
+    }
+
+    p{
+        font-family: Montserrat;
+        font-style: Regular;
+        margin-bottom: 250px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 300px;
+        }
+    }
+   
+    
+}
+
+.promo-bg{
+    height: 628px;
+    background: url("img/main.svg") center no-repeat;
+    background-size: contain;
+    @media screen and (max-width: 991px) {
+        height: 678px;
+    }
+}
+
+.promo__list{
+    .promo__list li{
+        display: flex;
+        align-items: baseline;
+        font-size: 18px;
+        gap: 12px;
+        margin-bottom: 8px;
+        li:last-child{
+            margin-bottom: 0px;
+        }
+        @media screen and (max-width: 991px) {
+        }
+    }
+}

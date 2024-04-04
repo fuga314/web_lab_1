@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    background-color: #E5E5E5;
+}
+body, p,h1,h2,h3,h4, ul{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    color: #0C2836;
+}
+
+.navbar{
+    padding-top:35px;
+    margin-bottom: 72px;
+}
+
+:root{
+    --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
+}
+h1{
+    font-family: Montserrat;
+    font-style: Extrabold;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
