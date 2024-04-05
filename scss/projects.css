@@ -1,7 +1,7 @@
 .projects {
   font-family: Montserrat;
   margin-bottom: 100px;
-  width: 100%;
+  size: 100%;
 }
 .projects .projects__card img {
   width: 378px;

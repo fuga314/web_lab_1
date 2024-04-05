@@ -1,6 +1,14 @@
 .footer{
     .footer__top{
         margin-bottom: 74px;
+        @media screen and (max-width: 991px) {
+            .row{
+                row-gap: 24px;
+                align-items: center;
+                justify-items: center;
+                align-self: flex-end;
+            }
+        }
     }
     .footer__links{
         text-align: center;
@@ -11,6 +19,9 @@
     }
     .footer__info{
         text-align: end;
+        @media screen and (max-width: 991px) {
+            align-items: end;
+        }
     }
     .footer__copyright{
         text-align: center;
