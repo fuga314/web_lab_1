@@ -1,40 +1,50 @@
 @charset "UTF-8";
 
-*, 
+*,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
-html{
-    background-color: #E5E5E5;
+html {
+    background-color: #e5e5e5;
 }
-body, p,h1,h2,h3,h4, ul{
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+ul {
     font-family: Montserrat;
     margin: 0;
     padding: 0;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-body{
-    color: #0C2836;
+body {
+    color: #0c2836;
 }
 
-.navbar{
-    padding-top:35px;
+.navbar {
+    padding-top: 35px;
     margin-bottom: 72px;
 }
 
-:root{
+:root {
     --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
 }
-h1{
+
+h1 {
     font-family: Montserrat;
     font-style: Extrabold;
     font-size: 48px;
     line-height: 120%;
     font-weight: 800;
     margin-bottom: 28px;
+    @media screen and (max-width: 544px) {
+        font-size: 36px;
+    }
 }
