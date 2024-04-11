@@ -12,8 +12,13 @@
         @media screen and (max-width: 991px) {
             margin-bottom: 300px;
         }
+        @media screen and (max-width: 544px) {
+            margin-bottom: 200px;
+        }
     }
-   
+    @media screen and (max-width: 544px) {
+        margin-bottom: 30px;
+    }
     
 }
 
@@ -36,7 +41,6 @@
         li:last-child{
             margin-bottom: 0px;
         }
-        @media screen and (max-width: 991px) {
-        }
+        
     }
 }

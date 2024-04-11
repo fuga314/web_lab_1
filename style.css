@@ -67,6 +67,16 @@ h1 {
     margin-bottom: 300px;
   }
 }
+@media screen and (max-width: 544px) {
+  .promo p {
+    margin-bottom: 200px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .promo {
+    margin-bottom: 30px;
+  }
+}
 
 .promo-bg {
   height: 628px;
@@ -89,6 +99,7 @@ h1 {
 .promo__list .promo__list li li:last-child {
   margin-bottom: 0px;
 }
+
 .projects {
   font-family: Montserrat;
   margin-bottom: 100px;
@@ -291,6 +302,11 @@ h1 {
 @media screen and (max-width: 991px) {
   .footer .footer__info {
     align-items: end;
+  }
+}
+@media screen and (max-width: 544px) {
+  .footer .footer__info {
+    justify-content: baseline;
   }
 }
 .footer .footer__copyright {

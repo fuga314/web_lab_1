@@ -14,6 +14,16 @@
     margin-bottom: 300px;
   }
 }
+@media screen and (max-width: 544px) {
+  .promo p {
+    margin-bottom: 200px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .promo {
+    margin-bottom: 30px;
+  }
+}
 
 .promo-bg {
   height: 628px;
