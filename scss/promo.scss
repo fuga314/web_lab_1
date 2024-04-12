@@ -12,12 +12,12 @@
         @media screen and (max-width: 991px) {
             margin-bottom: 300px;
         }
-        @media screen and (max-width: 544px) {
+        @media screen and (max-width: 543px) {
             margin-bottom: 200px;
         }
     }
     @media screen and (max-width: 544px) {
-        margin-bottom: 30px;
+        margin-bottom: 0;
     }
     
 }
@@ -28,6 +28,9 @@
     background-size: contain;
     @media screen and (max-width: 991px) {
         height: 678px;
+    }
+    @media screen and (max-width: 767px) {
+        height: 800px;
     }
 }
 
@@ -41,6 +44,9 @@
         li:last-child{
             margin-bottom: 0px;
         }
-        
     }
+    @media screen and (max-width: 544px) {
+        margin-top: 150px;
+    }
+       
 }

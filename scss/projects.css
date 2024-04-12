@@ -8,9 +8,22 @@
   height: 238px;
   border-radius: 15px;
   margin-bottom: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .projects .projects__card img {
+    width: 95%;
+    height: 95%;
+  }
 }
 .projects row {
   row-gap: 44px;
+}
+@media screen and (max-width: 1199px) {
+  .projects {
+    size: 70%;
+  }
 }
 
 .projects h2 {

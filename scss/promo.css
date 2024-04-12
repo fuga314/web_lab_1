@@ -14,14 +14,14 @@
     margin-bottom: 300px;
   }
 }
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 543px) {
   .promo p {
     margin-bottom: 200px;
   }
 }
 @media screen and (max-width: 544px) {
   .promo {
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -35,6 +35,11 @@
     height: 678px;
   }
 }
+@media screen and (max-width: 767px) {
+  .promo-bg {
+    height: 800px;
+  }
+}
 
 .promo__list .promo__list li {
   display: flex;
@@ -45,4 +50,9 @@
 }
 .promo__list .promo__list li li:last-child {
   margin-bottom: 0px;
+}
+@media screen and (max-width: 544px) {
+  .promo__list {
+    margin-top: 150px;
+  }
 }/*# sourceMappingURL=promo.css.map */
